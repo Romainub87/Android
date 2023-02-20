@@ -1,5 +1,7 @@
 package com.example.exo8android;
 
+import static com.example.exo8android.ModifUser.tel;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -11,15 +13,18 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static String nomP;
+    public static String prenomP;
+    public static String telP;
     private Button modifUser;
     private Button modifAdresse;
-    private EditText nomPers;
-    private EditText prenomPers;
-    private EditText telPers;
-    private EditText numRue;
-    private EditText nomRue;
-    private EditText ville;
-    private EditText codePostal;
+    public static EditText nomPers;
+    public static EditText prenomPers;
+    public static EditText telPers;
+    public static EditText numRue;
+    public static EditText nomRue;
+    public static EditText ville;
+    public static EditText codePostal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         nomPers = findViewById(R.id.nom);
         prenomPers = findViewById(R.id.prenom);
         telPers = findViewById(R.id.tel);
+
         numRue = findViewById(R.id.numRue);
         nomRue = findViewById(R.id.nomRue);
         ville = findViewById(R.id.ville);
