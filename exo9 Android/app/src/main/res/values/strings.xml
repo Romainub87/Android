@@ -5,4 +5,8 @@
     <string name="appel">Appel</string>
     <string name="web">Web</string>
     <string name="map">Map</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="url">Url</string>
+    <string name="tel">Tel.</string>
 </resources>
