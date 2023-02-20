@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">exo7Android</string>
+    <string name="attente">en attente</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="hello">Hello World !</string>
+</resources>
