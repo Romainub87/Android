@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TestImplicit01</string>
+    <string name="mms">MMS</string>
+    <string name="sms">SMS</string>
+    <string name="appel">Appel</string>
+    <string name="web">Web</string>
+    <string name="map">Map</string>
+</resources>
